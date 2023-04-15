@@ -1,8 +1,8 @@
-import './App.css';
+
 import NavBar from './component/navBar/NavBar';
 import ItemListContainer from './component/ItemListContainer/ItemListContainer';
-import style from "./component/styleCSS/style.css"
-import CartWidget from "./component/CartWidget/CartWidget"
+import CartWidget from "./component/CartWidget/CartWidget";
+import Counter from "./component/ItemListContainer/ItemCount";
 
 function App() {
   return (
@@ -10,6 +10,8 @@ function App() {
      <NavBar />
      <ItemListContainer greeting={"bienvenidos"} />
      <CartWidget />
+     <Counter />
+     
     </div>
   
   
