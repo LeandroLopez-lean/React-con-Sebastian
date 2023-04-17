@@ -1,3 +1,7 @@
+.titulo{
+  justify-content: center;
+}
+
 
 .counter {
     display: flex;
@@ -29,3 +33,10 @@
     font-weight: bold;
     margin: 0 20px;
   }
+.img{
+  display:flex;
+  padding: 0%;
+  font-size: 20px;
+  background-color: #333;
+  border-radius: 25px;
+}
